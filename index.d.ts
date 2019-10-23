@@ -65,7 +65,7 @@ declare namespace Diff2Html {
     }
 }
 
-declare module "diff2html" {
+declare module "@nullcc/diff2html" {
     var d2h: { "Diff2Html": Diff2Html.Diff2Html };
     export = d2h;
 }
