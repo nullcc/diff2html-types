@@ -61,7 +61,7 @@ declare namespace Diff2Html {
 
     export interface Diff2Html {
         getJsonFromDiff(input: string, configuration?: Options): Result[];
-        getPrettyHtml(input: any, configuration?: Options, coverage?: any, coverageFilePatterns?: string[][], workspace?: string): { htmlContent: string, metadata: any };
+        getPrettyHtml(input: any, configuration?: Options, coverage?: any, coverageFilePatterns?: string[][], workspace?: string): { fileList: string, htmlContents: string[], metadata: any };
     }
 }
 
